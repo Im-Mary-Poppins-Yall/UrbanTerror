@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>UT scripts creator</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1/new.min.css">
+  <link rel="stylesheet" href="src/app.css">
+</head>
+<body>
+<h1>UT scripts creator</h1>
+<details>
+  <summary>Crosshair</summary>
+  <p>This binds the <kbd>*</kbd> key to a method that rotates the cross-hair color</p>
+  <form action="">
+    <div id="crosshair">
+      <button type="button" onclick="insertColorRow()" style="margin-bottom: 1rem">
+        Add color
+      </button>
+    </div>
+    <button type="button" onclick="generateCrosshairScript()">
+      Generate script!
+    </button>
+  </form>
+  <pre id="crosshair-script" hidden></pre>
+</details>
+<script src="./crosshair.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+h2 { margin-bottom: 2em; }
+
+body {
+  min-width: 1000px;
+  font-size: 1.2em;
+}
+
+.crosshair-color { margin-bottom: 1rem; }
+
+code { color: #e8912d; }
+
+select { margin-right: 1em; }
+
+label { text-transform: capitalize; }
+
+button { margin-right: 1em; }
+
+.form-line {
+  width: 100%;
+  display: grid;
+  grid-template-columns: [ first second third fourth ] 1fr 1fr 1fr 1fr;
+  grid-template-rows: [ all ] 1fr;
+}
+
+.form-field {
+  display: grid;
+  grid-template-columns: [ first second ] 1fr 1fr;
+}
