@@ -1,0 +1,44 @@
+# Unit test results
+unit-tests/
+
+.idea/
+.DS_Store
+node_modules
+dist
+.tmp
+.sass-cache
+bower_components
+app/config.js
+app/scripts/config.js
+app/studio.json
+app/sso/index.html
+docs/generated
+*.iml
+*.swp
+.directory
+test/e2e/out
+test/e2e/download
+__MACOSX/
+
+# Optional eslint/stylelint cache
+.eslintcache/
+.eslintcache
+.stylelintcache/
+.stylelintcache
+
+# Node installation directory (used by frontend-maven-plugin)
+.node/
+
+# We added a pom => we must ignore target/
+target/
+
+.classpath
+.project
+.settings
+.vscode
+.java-version
+
+# XTM temp dir
+xtm
+tmp
+

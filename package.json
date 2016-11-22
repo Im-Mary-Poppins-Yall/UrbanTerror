@@ -1,0 +1,15 @@
+{
+  "name": "urban-terror-configurator",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A small web UI to generate Urban Terror convenience scripts",
+  "scripts": {
+    "start": "live-server --open=index.html"
+  },
+  "devDependencies": {
+    "live-server": "1.2.1"
+  },
+  "dependencies": {
+    "skruv": "0.2.5"
+  }
+}
