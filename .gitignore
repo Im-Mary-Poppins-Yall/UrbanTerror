@@ -3,7 +3,16 @@ unit-tests/
 
 .idea/
 .DS_Store
-node_modules
+
+# Exclude node modules, except the skruv ones.
+# This is a hacky way of using .gitignore to keep them in GitHub pages
+# See: https://www.bennadel.com/blog/3181-including-node-modules-and-vendors-folders-in-your-github-pages-site.htm
+node_modules/*
+!node_modules/skruv
+node_modules/skruv/LICENSE
+node_modules/skruv/README.md
+node_modules/skruv/package.json
+
 dist
 .tmp
 .sass-cache
