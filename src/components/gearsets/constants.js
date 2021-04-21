@@ -1,10 +1,11 @@
+import { addIds } from '../../generic/addIds.js';
+
 import { filterGear } from './filterGear.js';
 
-export const GEAR = {
+export const GEAR = addIds({
   BERETTA: {
     name: 'Beretta',
     code: 'F',
-    id: 'BERETTA',
     primary: false,
     secondary: false,
     pistol: true,
@@ -14,7 +15,6 @@ export const GEAR = {
   GLOCK: {
     name: 'Glock',
     code: 'f',
-    id: 'GLOCK',
     primary: false,
     secondary: false,
     pistol: true,
@@ -24,7 +24,6 @@ export const GEAR = {
   COLT: {
     name: 'Colt 1911',
     code: 'g',
-    id: 'COLT',
     primary: false,
     secondary: false,
     pistol: true,
@@ -34,7 +33,6 @@ export const GEAR = {
   DESERT_EAGLE: {
     name: 'Desert Eagle',
     code: 'G',
-    id: 'DESERT_EAGLE',
     primary: false,
     secondary: false,
     pistol: true,
@@ -44,7 +42,6 @@ export const GEAR = {
   MAGNUM: {
     name: 'Magnum',
     code: 'l',
-    id: 'MAGNUM',
     primary: false,
     secondary: false,
     pistol: true,
@@ -54,7 +51,6 @@ export const GEAR = {
   SPAS: {
     name: 'Spas 12',
     code: 'H',
-    id: 'SPAS',
     primary: true,
     secondary: true,
     pistol: false,
@@ -64,7 +60,6 @@ export const GEAR = {
   BENELLI: {
     name: 'Benelli',
     code: 'j',
-    id: 'BENELLI',
     primary: true,
     secondary: true,
     pistol: false,
@@ -74,7 +69,6 @@ export const GEAR = {
   MAC: {
     name: 'Mac 11',
     code: 'h',
-    id: 'MAC',
     primary: true,
     secondary: true,
     pistol: false,
@@ -84,7 +78,6 @@ export const GEAR = {
   MP5: {
     name: 'MP5K',
     code: 'I',
-    id: 'MP5',
     primary: true,
     secondary: true,
     pistol: false,
@@ -94,7 +87,6 @@ export const GEAR = {
   UMP: {
     name: 'UMP 45',
     code: 'J',
-    id: 'UMP',
     primary: true,
     secondary: true,
     pistol: false,
@@ -104,7 +96,6 @@ export const GEAR = {
   P90: {
     name: 'P90',
     code: 'k',
-    id: 'P90',
     primary: true,
     secondary: true,
     pistol: false,
@@ -114,7 +105,6 @@ export const GEAR = {
   HK: {
     name: 'HK 69',
     code: 'K',
-    id: 'HK',
     primary: true,
     secondary: false,
     pistol: false,
@@ -124,7 +114,6 @@ export const GEAR = {
   LR: {
     name: 'LR 3000ML',
     code: 'L',
-    id: 'LR',
     primary: true,
     secondary: false,
     pistol: false,
@@ -134,7 +123,6 @@ export const GEAR = {
   M4: {
     name: 'Colt M4',
     code: 'e',
-    id: 'M4',
     primary: true,
     secondary: false,
     pistol: false,
@@ -144,7 +132,6 @@ export const GEAR = {
   G36: {
     name: 'G36',
     code: 'M',
-    id: 'G36',
     primary: true,
     secondary: false,
     pistol: false,
@@ -154,7 +141,6 @@ export const GEAR = {
   FRF1: {
     name: 'FR-F1',
     code: 'i',
-    id: 'FRF1',
     primary: true,
     secondary: false,
     pistol: false,
@@ -164,7 +150,6 @@ export const GEAR = {
   PSG1: {
     name: 'PSG.1',
     code: 'N',
-    id: 'PSG1',
     primary: true,
     secondary: false,
     pistol: false,
@@ -174,7 +159,6 @@ export const GEAR = {
   SR8: {
     name: 'SR8',
     code: 'Z',
-    id: 'SR8',
     primary: true,
     secondary: false,
     pistol: false,
@@ -184,7 +168,6 @@ export const GEAR = {
   AK: {
     name: 'AK103',
     code: 'a',
-    id: 'AK',
     primary: true,
     secondary: false,
     pistol: false,
@@ -194,7 +177,6 @@ export const GEAR = {
   NEGEV: {
     name: 'Negev LMG',
     code: 'c',
-    id: 'NEGEV',
     primary: true,
     secondary: false,
     pistol: false,
@@ -204,7 +186,6 @@ export const GEAR = {
   HE: {
     name: 'HE',
     code: 'O',
-    id: 'HE',
     primary: false,
     secondary: false,
     pistol: false,
@@ -214,7 +195,6 @@ export const GEAR = {
   SMOKE: {
     name: 'Smoke',
     code: 'Q',
-    id: 'SMOKE',
     primary: false,
     secondary: false,
     pistol: false,
@@ -224,7 +204,6 @@ export const GEAR = {
   VEST: {
     name: 'Vest',
     code: 'R',
-    id: 'VEST',
     primary: false,
     secondary: false,
     pistol: false,
@@ -234,7 +213,6 @@ export const GEAR = {
   GOGGLES: {
     name: 'Tacs',
     code: 'S',
-    id: 'GOGGLES',
     primary: false,
     secondary: false,
     pistol: false,
@@ -244,7 +222,6 @@ export const GEAR = {
   MEDKIT: {
     name: 'Medkit',
     code: 'T',
-    id: 'MEDKIT',
     primary: false,
     secondary: false,
     pistol: false,
@@ -254,7 +231,6 @@ export const GEAR = {
   SILENCER: {
     name: 'Silencer',
     code: 'U',
-    id: 'SILENCER',
     primary: false,
     secondary: false,
     pistol: false,
@@ -264,7 +240,6 @@ export const GEAR = {
   LASER: {
     name: 'Laser',
     code: 'V',
-    id: 'LASER',
     primary: false,
     secondary: false,
     pistol: false,
@@ -274,7 +249,6 @@ export const GEAR = {
   HELMET: {
     name: 'Helmet',
     code: 'W',
-    id: 'HELMET',
     primary: false,
     secondary: false,
     pistol: false,
@@ -284,7 +258,6 @@ export const GEAR = {
   AMMO: {
     name: 'Extra ammo',
     code: 'X',
-    id: 'AMMO',
     primary: false,
     secondary: false,
     pistol: false,
@@ -294,14 +267,13 @@ export const GEAR = {
   NONE: {
     name: 'None',
     code: 'A',
-    id: 'NONE',
     primary: false,
     secondary: false,
     pistol: false,
     nade: false,
     item: false,
   },
-};
+});
 
 export const PRIMARY = filterGear(GEAR, 'primary', true);
 export const SECONDARY = filterGear(GEAR, 'secondary', true);
