@@ -45,7 +45,7 @@ echo "Loading colors";
 
 ${presetsToScriptLines(indexedPresets)}
 
-set ${CYCLE_COMMAND_NAME} "vstr ${COMMAND_PREFIX}${COLOR_PRESET_NAMES[ 0 ]}"
+set ${CYCLE_COMMAND_NAME} "vstr ${COMMAND_PREFIX}${COLOR_PRESET_NAMES[ 1 ]}"
 
 bind ${cycle} "vstr ${CYCLE_COMMAND_NAME}"
 
